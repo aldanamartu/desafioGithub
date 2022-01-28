@@ -187,10 +187,11 @@ h6{
 
 .sectionDesayunos{
     display: flex;
-    text-align: center;
+    justify-content: center;
 }
-.sectionDesayunos img{
-    width: 70%;
+
+.espacioIconos{
+    padding: 10px;
 }
 
 /*pasteleria*/
@@ -203,11 +204,13 @@ h6{
 .presentacion{
     margin: 30px;
     text-align: center;
+    font-size: 30px;
 }
 
 .titulosProductos{
     background-color: rgb(248, 176, 224);
     border-radius: 50px;
+    margin-bottom: 50px;
 }
 
 .descripcionProductos{
@@ -221,6 +224,13 @@ h6{
     padding: 10px;
     border: 2px solid rgb(163, 39, 157);
     margin: 5px;    
+}
+.nombresTartas{
+    text-align: start;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight:lighter;
+    
 }
 
 /*galería*/

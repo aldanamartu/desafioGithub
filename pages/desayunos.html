@@ -46,40 +46,63 @@
         <main>
             <p class="pDesayunos">Tenemos diferentes propuestas para que se adapten a tu gusto. Sorprendé a esa persona que tanto querés con un súper desayuno para que comience el día bien arriba. <br> 100% artesanales y personalizados.</p> 
             <p class="pDesayunos">Nuestros desayunos cuentan con los siguientes productos: </p> 
-            <ul class="iconos">
-                <li>
-                    <img src="../img/iconoCupcake.png" alt="icono cupcake"> Cupcakes
-                </li>
-                <li>
-                    <img src="../img/iconoGalleta.png" alt="icono galleta"> Oreos Bañadas
-                </li>
-                <li>
-                    <img src="../img/iconoPorcionTorta.png" alt="icono porcion torta"> Torta Individual
-                </li>
-                <li>
-                    <img src="../img/iconoAlfajor.png" alt="alfajor"> Alfajor de maicena
-                </li>
-                <li>
-                    <img src="../img/iconoPopcake.png" alt="icono popcake"> Popcakes
-                </li>
-                <li>
-                    <img src="../img/iconoLeche.png" alt="icono leche"> Leche Individual
-                </li>
-                <li>
-                    <img src="../img/iconotTaza-de-cafe.png" alt="taza de cafe"> Taza
-                </li>
-            </ul>
+            <section> 
+                <ul class="iconos">
+                    <li>
+                        <img class=espacioIconos src="../img/iconoCupcake.png" alt="icono cupcake"> Cupcakes
+                    </li>
+                    <li>
+                        <img class=espacioIconos src="../img/iconoGalleta.png" alt="icono galleta"> Oreos Bañadas
+                    </li>
+                    <li>
+                        <img class=espacioIconos src="../img/iconoPorcionTorta.png" alt="icono porcion torta"> Torta Individual
+                    </li>
+                    <li>
+                        <img class=espacioIconos src="../img/iconoAlfajor.png" alt="alfajor"> Alfajor de maicena
+                    </li>
+                    <li>
+                        <img class=espacioIconos src="../img/iconoPopcake.png" alt="icono popcake"> Popcakes
+                    </li>
+                    <li>
+                        <img class=espacioIconos src="../img/iconoLeche.png" alt="icono leche"> Leche Individual
+                    </li>
+                    <li>
+                        <img class=espacioIconos src="../img/iconotTaza-de-cafe.png" alt="taza de cafe"> Taza
+                    </li>
+                </ul>   
+            </section>
 
             <section class="sectionDesayunos">
-                <div class="img1">
-                    <img src="../img/desayunoGaby.jpg" alt="">
-                </div>
-                <div class="img2">
-                    <img src="../img/desayunoSol15.jpg" alt="">
-                </div>
-                <div class="img3">
-                    <img src="../img/desayunoCata.jpg" alt="">
-                </div>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade col-sm-4 " data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../img/desayunoEmma.JPG" class="d-block w-100" alt="desayunos Emma">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../img/desayunoMa.JPG" class="d-block w-100" alt="desayuno Ma">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../img/desayunoSilvana.JPG" class="d-block w-100" alt="desayuno Silvana">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../img/desayunoCountry.jpg" class="d-block w-100" alt="desayuno Country">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../img/desayunoLola.JPG" class="d-block w-100" alt="desayuno Lola">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../img/desayunoMama.JPG" class="d-block w-100" alt="desayuno Mama">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </section>
             <!--Boton ir arriba-->
             <div>
@@ -94,6 +117,9 @@
             <a class="iconosRedes" href="https://www.facebook.com/todolindotortas/" target="_blank"><img class=logo src="../img/iconoFacebook.png" alt="logo facebook"></a>
             <h6> @TodoLindoTortas - Todos los derechos reservados </h6>
         </footer>
-    </div>   
+    </div> 
+    
+    <!--link js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
